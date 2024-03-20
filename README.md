@@ -24,11 +24,11 @@ A API to shorten a received URL that must meet the following requirements:
   <li>[POST] {{host}}/shorten-url</li>
   <li>Request query fields: <pre>url</pre></li>
   
-    ``json
+    `json
     {
         "url": "https://backendbrasil.com.br"
     }
-    ``
+    `
   <li>Responses</li>
   <ul>
     <li>`HTTP/1.1 200 OK`</li>
