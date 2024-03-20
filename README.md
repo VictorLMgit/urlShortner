@@ -31,15 +31,15 @@ A API to shorten a received URL that must meet the following requirements:
     
   <li>Responses</li>
   <ul>
-    <li>`HTTP/1.1 200 OK`
+    <li>HTTP/1.1 200 OK</li>
        
     {
         "url": "https://xxx.com/ISHU68"
     }
     
-    </li>
     
-    <li>`HTTP 404 (Not Found)`</li>
+    
+   <li>`HTTP 404 (Not Found)`</li>
   </ul>
 </ul>
 
