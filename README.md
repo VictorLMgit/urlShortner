@@ -39,7 +39,7 @@ A API to shorten a received URL that must meet the following requirements:
 ## How to Run
 <ol>
     <li>Install redis following https://redis.io/docs/install/ </li>
-    <li>Start a redis service at your host using sudo service redis-server start </li>
+    <li>Start a redis service at your host using <pre>sudo service redis-server start</pre> </li>
     <li>Install dependencies using: <pre>npm install</pre></li>
     <li>Start the server using the following command on your terminal: <pre>npm run start</pre></li>
 </ol>
