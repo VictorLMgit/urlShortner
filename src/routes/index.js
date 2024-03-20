@@ -8,7 +8,7 @@ const routes = (app) => {
         console.log(req.method + " " + req.path + " - " + req.ip);
         next();
     })
-    app.use("/shorten-url", servicesRoute);
+   
     app.use("/",servicesRoute);
 }
 
