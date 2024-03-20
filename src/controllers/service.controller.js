@@ -5,7 +5,7 @@ class serviceController {
     static async casheUrl(req, res) {
         try {
             const cachedUrl = await shorten(req.body.url);
-            const hostname = req.host;
+            const hostname = req.hostname;
             const PORT = process.env.PORT;
             res.status(200).json({
                 url: "http://" + hostname + ":" + PORT + "/" + cachedUrl
